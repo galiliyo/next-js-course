@@ -77,6 +77,7 @@ export async function getStaticProps() {
     props: {
       meetups,
     },
+    revalidate: 1,
   };
 }
 
